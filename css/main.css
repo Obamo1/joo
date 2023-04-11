@@ -1,0 +1,323 @@
+/* CSS Document */
+
+body {
+	background-color:#B1B1B1;
+	background-position:top;
+	background-repeat:repeat-x;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:75%;
+	color:#000;
+	margin:0;
+	font:Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+ .right
+{
+float:right;
+}
+
+ .left
+{
+float:left;
+}
+
+
+.clear {
+	clear:both;
+}
+
+/* header START
+----------------------------------*/
+
+
+#logo_text
+{
+font-size:24px;
+text-align:left;
+margin-top: 88px;
+margin-left: 13px;
+font-family:Verdana,Arial,Helvetica,sans-serif;
+font-weight:bold;
+}
+
+.white_logo
+{
+float:left;
+color:#FFFFFF;
+}
+
+.red_logo
+{
+float:left;
+color:#FF5A00;
+}
+
+
+
+#nav {
+height: 119px; width: 779px;
+background-color:#5E5E5E;
+/*background-image:url(../images/menu.gif);*/
+}
+
+.nav_left
+{
+
+float:left;
+background-image:url(../images/top_01.jpg);
+
+height: 119px; width: 240px;
+}
+.nav_right
+{
+float:left;
+
+height: 73px; width: 539px;
+height:119px;
+z-index:1;
+}
+.nav_right_center
+{
+float:left;
+background-image:url(../images/top_02.jpg);
+background-position: center;
+background-repeat:no-repeat;
+position:relative;
+height: 73px; /*margin-top: 33px;*/
+width: 539px;
+}
+.nav_right_botttom
+{
+float:left;
+float:left;
+background-image:url(../images/top_03.gif);
+height: 13px; width: 539px;
+/*top: 150px; margin-top: -33px;*/
+
+}
+
+#nav_menu
+{
+float:left;
+position:relative;
+float:right;
+height: 33px;
+width: 539px;
+background-color:#5E5E5E;
+background-image:url(../images/menu_bg_n.gif);
+
+
+}
+
+#nav_menu ul
+{
+margin-top: 2px;
+float:right;
+}
+
+#nav_menu li {
+	list-style:none;
+	float:left;
+	height:30px;
+}
+
+#nav_menu li a {
+	display:block;
+	padding:5px 10px 5px 10px;
+	margin:0 0px 0 3px;
+	color:#D6D6D6;
+	text-decoration:none;
+	font-weight:bold;
+	margin-top:1px;
+	padding-bottom: 7px; padding-top: 7px;
+}
+
+#nav_menu li a:hover, .active {
+	background:#6D6D6D;
+	background-position:bottom;
+	background-repeat:repeat-x;
+	color:#FFFFFF;
+	
+}
+
+
+.menu_item
+{
+margin-top: 10px;
+}
+
+.menu_item_header
+{
+background-color:#5E5E5E;
+background-image:url(../images/right_top_bg.gif);
+text-align:center;
+height: 28px; 
+width: 243px; 
+
+color:#FFFFFF;
+font-family:Tahoma,Arial,Helvetica,sans-serif;
+
+margin-left:0px;
+}
+
+.menu_item_header h2
+{
+padding-top: 5px;
+font-size:14px;
+margin:0;
+
+}
+.menu_item_content
+{
+
+}
+
+/* header END
+----------------------------------*/
+
+/* ancor Start
+----------------------------------*/
+
+
+a 
+{
+color:#6F3F00;
+}
+
+a:hover
+{
+color:#D18824;
+}
+
+/* ancor End
+----------------------------------*/
+
+/* Content  Start
+----------------------------------*/
+
+#container {
+margin:20px auto 0 auto;
+
+	background-color:#FFFFFF;
+	background-image:url(../images/content_bg.gif);
+	background-repeat:repeat-y;
+	height:auto; 
+	width: 779px; 
+/*	padding-left: 3px; */
+	margin-bottom: 20px;
+	
+
+}
+
+div.header2
+{
+background-color:#D9D9D9;
+margin-left: -18px; 
+width: 330px;
+height:30px;
+margin-bottom:15px;
+}
+
+h2.header2
+{
+
+font-size:18px;
+ padding-top: 3px; padding-bottom: 3px; padding-left: 20px;
+margin:0px;
+
+}
+
+.strong
+{
+font-weight:bold;
+border-top:1px solid #333333;
+margin-top: 5px; padding-top: 10px;
+}
+
+
+#container ul {
+      list-style-image: url(../images/ul.jpg);
+}
+
+#container ul li
+{
+margin-bottom:5px;
+}
+
+#left_column li
+{
+padding-left:10px;
+}
+
+#content
+{
+position:relative;
+/*background-color:#CCCCCC*/
+height:inherit;
+}
+
+#content_conteiner
+{
+height:auto;
+}
+
+
+
+#left_column
+{
+	padding: 20px; 
+	width: 480px; 
+}
+#right_column
+{
+	float:right;
+	width: 244px;
+}
+
+.new_car
+{
+	margin-right:auto;
+	margin-left:auto;
+	width: 230px;
+	margin-top:10px;
+}
+
+/* Content  End
+----------------------------------*/
+
+
+/* Footer Start
+----------------------------------*/
+#footer
+{
+	height: 33px;
+	background-image:url(../images/bot_bg.gif);
+	width: 780px;
+	background-color:#5E5E5E;
+}
+
+#footer a
+{
+color:#CCCCCC;
+
+}
+
+#footer a:hover
+{
+color:#fff;
+}
+
+#copy_right
+{
+float:right;
+margin-top:7px;
+margin-right:10px;
+color:#FFFFFF;
+font-size:12px;
+font-weight:bold;
+
+}
+
+/* Footer End
+----------------------------------*/
